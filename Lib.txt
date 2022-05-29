@@ -69,7 +69,7 @@ function library:CreateMain(guititle, credits)
 	Title.TextScaled = true
 	Title.TextSize = 40.000
 	Title.TextWrapped = true
-
+	Title.RichText = true
 	CoverFrame1.Name = "CoverFrame1"
 	CoverFrame1.Parent = TopMain
 	CoverFrame1.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
